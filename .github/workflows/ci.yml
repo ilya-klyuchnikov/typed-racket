@@ -12,7 +12,7 @@ jobs:
         enable-contracts: [true, false]
     steps:
       - uses: actions/checkout@master
-      - uses: Bogdanp/setup-racket@v0.14
+      - uses: Bogdanp/setup-racket@v1.0
         with:
           architecture: x64
           distribution: full
